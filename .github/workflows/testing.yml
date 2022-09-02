@@ -16,7 +16,7 @@ on:
 job:
   build:
 
-    runs-on: windows 11 pro
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
